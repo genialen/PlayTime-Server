@@ -1,30 +1,30 @@
 import subprocess
 import os
 import psutil
+import time
 import requests
 
-SUNSHINE_PATH = os.path.join(os.getcwd(), "sunshine", "sunshine.exe")
-CONFIG_PATH = os.path.join(os.getcwd(), "sunshine", "config", "sunshine.conf")
+SUNSHINE_PATH = r"C:\Users\Kudahter\PycharmProjects\PlayTime Server\utils\sunshine\sunshine.exe"
 
 
 def start_sunshine():
     """
-    Запускает Sunshine как фоновый процесс.
+    Запускает Sunshine через оболочку cmd.
     """
     print(f"Попытка запуска Sunshine по пути: {SUNSHINE_PATH}")
     if not os.path.exists(SUNSHINE_PATH):
         raise FileNotFoundError(f"Sunshine не найден по пути {SUNSHINE_PATH}")
 
     try:
+        # Запуск Sunshine через cmd.exe
         process = subprocess.Popen(
-            [SUNSHINE_PATH],
+            ["cmd.exe", "/c", SUNSHINE_PATH],
             stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE
+            stderr=subprocess.PIPE,
+            text=True
         )
-        print(f"Sunshine успешно запущен. PID: {process.pid}")
-        stdout, stderr = process.communicate(timeout=5)
-        print(f"STDOUT: {stdout.decode() if stdout else 'Пусто'}")
-        print(f"STDERR: {stderr.decode() if stderr else 'Пусто'}")
+        time.sleep(5)  # Даем время на запуск
+        print("Sunshine запущен.")
 
         if is_sunshine_active():
             print("Sunshine успешно запущен и доступен.")
@@ -47,18 +47,13 @@ def is_sunshine_active():
     """
     Проверяет, доступен ли веб-интерфейс Sunshine.
     """
+    import requests
     try:
         response = requests.get("https://localhost:47990", verify=False, timeout=5)
         return response.status_code == 200
     except requests.RequestException as e:
         print(f"Ошибка проверки Sunshine через порт: {e}")
         return False
-
-
-if is_sunshine_active():
-    print("Sunshine успешно запущен и доступен.")
-else:
-    print("Sunshine запущен, но веб-интерфейс недоступен.")
 
 def stop_sunshine():
     """

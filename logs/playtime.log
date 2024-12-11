@@ -69,3 +69,75 @@
 2024-12-11 21:07:31,403 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
 2024-12-11 21:07:31,403 - INFO - Успешный вход.
 2024-12-11 21:07:33,083 - ERROR - Ошибка запуска Sunshine: Ошибка запуска Sunshine: 'utf-8' codec can't decode byte 0xd1 in position 1239: invalid continuation byte
+2024-12-11 21:17:08,818 - INFO - Программа PlayTime запущена.
+2024-12-11 21:17:15,506 - INFO - Попытка входа с логином: 1
+2024-12-11 21:17:15,508 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:17:15,510 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:17:15,510 - INFO - Успешный вход.
+2024-12-11 21:17:15,510 - ERROR - Ошибка запуска Sunshine: Sunshine не найден по пути C:\Users\Kudahter\PycharmProjects\PlayTime Server\utils\sunshine\sunshine.exe
+2024-12-11 21:18:45,098 - INFO - Программа PlayTime запущена.
+2024-12-11 21:18:49,942 - INFO - Попытка входа с логином: 1
+2024-12-11 21:18:49,943 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:18:49,956 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:18:49,956 - INFO - Успешный вход.
+2024-12-11 21:18:54,964 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:18:59,702 - ERROR - Sunshine не запущен.
+2024-12-11 21:25:38,030 - INFO - Программа PlayTime запущена.
+2024-12-11 21:25:46,181 - INFO - Попытка входа с логином: 1
+2024-12-11 21:25:46,182 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:25:46,184 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:25:46,185 - INFO - Успешный вход.
+2024-12-11 21:25:51,191 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:25:57,240 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:26:03,274 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:26:09,356 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:26:15,422 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:26:22,042 - ERROR - Sunshine не запущен.
+2024-12-11 21:27:35,917 - INFO - Программа PlayTime запущена.
+2024-12-11 21:27:40,841 - INFO - Попытка входа с логином: 1
+2024-12-11 21:27:40,843 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:27:40,844 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:27:40,845 - INFO - Успешный вход.
+2024-12-11 21:27:45,851 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:27:51,912 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:27:57,956 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:28:03,998 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:28:10,057 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:28:16,627 - ERROR - Sunshine не запущен.
+2024-12-11 21:35:11,631 - INFO - Программа PlayTime запущена.
+2024-12-11 21:35:18,913 - INFO - Попытка входа с логином: 1
+2024-12-11 21:35:18,914 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:35:18,916 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:35:18,917 - INFO - Успешный вход.
+2024-12-11 21:35:20,454 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:35:26,503 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:35:32,542 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:35:38,632 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:35:44,708 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:35:51,301 - ERROR - Sunshine не запущен.
+2024-12-11 21:41:21,226 - INFO - Программа PlayTime запущена.
+2024-12-11 21:41:27,425 - INFO - Попытка входа с логином: 1
+2024-12-11 21:41:27,429 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:41:27,431 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:41:27,431 - INFO - Успешный вход.
+2024-12-11 21:41:32,441 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:41:37,260 - ERROR - Sunshine не запущен.
+2024-12-11 21:45:23,865 - INFO - Программа PlayTime запущена.
+2024-12-11 21:45:27,331 - INFO - Попытка входа с логином: 1
+2024-12-11 21:45:27,334 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:45:27,336 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:45:27,337 - INFO - Успешный вход.
+2024-12-11 21:45:37,346 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:45:41,429 - ERROR - Sunshine не запущен.
+2024-12-11 21:51:02,794 - INFO - Программа PlayTime запущена.
+2024-12-11 21:51:07,042 - INFO - Попытка входа с логином: 1
+2024-12-11 21:51:07,045 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:5000
+2024-12-11 21:51:07,047 - DEBUG - http://127.0.0.1:5000 "POST /api/login HTTP/11" 200 60
+2024-12-11 21:51:07,048 - INFO - Успешный вход.
+2024-12-11 21:51:12,056 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:51:14,122 - DEBUG - https://localhost:47990 "GET / HTTP/11" 307 0
+2024-12-11 21:51:14,124 - DEBUG - https://localhost:47990 "GET /welcome HTTP/11" 200 2773
+2024-12-11 21:51:14,132 - DEBUG - Starting new HTTPS connection (1): localhost:47990
+2024-12-11 21:51:16,168 - DEBUG - https://localhost:47990 "GET / HTTP/11" 307 0
+2024-12-11 21:51:16,170 - DEBUG - https://localhost:47990 "GET /welcome HTTP/11" 200 2773
+2024-12-11 21:51:16,171 - INFO - Sunshine успешно запущен.
